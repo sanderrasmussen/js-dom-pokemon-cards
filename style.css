@@ -39,7 +39,7 @@ h2 {
 .card {
   width: 100%;
   justify-self: center;
-
+  list-style-type: none;
   border: 1px solid #252525;
   border-radius: 8px;
 
@@ -53,9 +53,11 @@ h2 {
 }
 
 .card--text {
+  
+  font-weight: bold;
   margin: 0.2rem;
   padding: 1rem;
-
+  list-style-type: none;
   border-radius: 5px;
 }
 
